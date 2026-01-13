@@ -1,5 +1,17 @@
-git init
-git clone
-git status
-git diff
-git checkout or git restore
+git init-starting the main function or the commands
+
+git clone-copying the previosuly available code snippet
+
+git status-shows what all changes we have done to the code
+
+git diff-checking file difference between previous and current state of file
+
+git checkout or git restore with filename-restore to it its original form BUT FILENAME IS MANDATORY
+
+git add filename-it will track the untracked files or new files
+
+git pull-trying to pull the available code from server
+
+git commit -m "COMMIT MESSAGE"(COMPULSORY) - used to finalise what we are doing
+
+git push-used to push the finalized code to the server
