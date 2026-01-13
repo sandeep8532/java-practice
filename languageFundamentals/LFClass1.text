@@ -1,0 +1,83 @@
+package 01-language-fundamentals;            // naming convention was wrong...it should not start with number
+                                             // cannot start a main function without a class name
+public static void main(String[] args){      // its proper
+    System.out.printLn("Hello world");       // we should write println not as printLn
+}
+
+-----------------------------------------------------------------------
+
+package languageFundamentals;
+
+public class Test{
+public static void main(String[] args){
+    System.out.println("Hello world");
+}
+}
+-------------------------------------------------------------------------
+
+package languageFundamentals;
+
+public class Test{
+    public static void main(String args[]){
+        System.out.println("add");              // had done a mistake here of not adding a ;
+    }
+}
+
+
+-------------------------------------------------------------------------
+
+package languageFundamentals;
+
+public class Test{
+    public static void main(String args[]){
+        int a=10;
+        int b=20;
+        int num = a + b;
+        System.out.println(num);           // had made a mistake of putting double quotes
+    }
+}
+
+-------------------------------------------------------------------------
+
+package languageFundamentals;
+
+public class Test{
+    public static void main(String args[]){         // had made a spelling mistake
+        int a = 8;
+        int b = 10;
+        int num = a * b;
+        System.out.println(num);
+    }
+}
+
+-----------------------------------------------------------------------
+
+package languageFundamentals;
+
+public class Test{
+    public static void main(String args[]){
+        int c = 40;
+        int b = 5;
+        int num = c / b;
+        System.out.println(num);
+    }
+}
+
+---------------------------------------------------------------------
+
+package languageFundamentals;
+
+public class Test{
+    public static void main(String args[]){
+        int a = 56;
+        int b = 40;
+        int num = a - b;
+        System.out.println(num);               // had made a spelling mistake
+    }
+}
+
+-------------------------------------------------------
+
+
+
+
